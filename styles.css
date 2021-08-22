@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 300px; 
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: #812F33;
+  }
+  
+  .pagewrapper {
+    background-color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #D9CEC1;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #nav-bar a {
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+  }
+  
+  .icon {
+    color: darkorange;
+  }
+  
+  .container {
+    max-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 90px auto;
+  }
+  
+  .get-started > h1 {
+    margin: 10px;
+  }
+  
+  #email {
+    padding: 5px;
+    margin: 7px;
+    width: 250px;
+  }
+  
+  .submit {
+    padding: 7px 15px;
+    margin-top: 7px;
+    background-color: #F29F05;
+    font-weight: bolder;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .services {
+    margin-top: 50px
+  }
+  
+  .services:last-of-type {
+    margin-bottom: 30px;
+  }
+  
+  .product-class {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 15px auto;
+    line-height: 30px;
+    border-radius: 3px;
+  }
+  
+  .product-name {
+    background-color: #CBCFD1;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .product-class > h2 {
+    margin: 15px 0;
+  }
+  
+  .product-class > button {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #FFD639;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-menu {
+    background-color: #D9CEC1;
+    padding-right: 15px;
+    padding: 15px;
+    margin: 40px 0;
+  }
+  
+  .footer-menu > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-menu a {
+    margin-right: 20px;
+  }
+  
+  .footer-menu > a:last-of-type {
+    margin-right: 0;
+  }
+  
+  .footer-menu > p {
+    text-align: right;
+  }
+  
+  @media (min-width: 650px) {
+    .container {
+      max-width: 900px;
+      width: 100%;
+      display: flex;
+      text-align: center;
+    }
+    #video {
+      max-width: 500px;
+    }
+    .services {
+      display: flex;
+    }
+    .offer {
+      text-align: left;
+      margin-left: 60px;
+    }
+    .icon {
+      max-width: 70px;
+      width: 100px;
+    }
+    .product-class {
+      min-width: 330px;
+      margin: 70px 10px 10px 10px;
+    }
+    .products {
+      display: flex;
+    }
+    .product-class:first-of-type {
+      margin-left: auto;
+    }
+    .product-class:last-of-type {
+      margin-right: auto;
+    }
+  }
